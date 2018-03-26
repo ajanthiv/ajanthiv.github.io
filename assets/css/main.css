@@ -3805,3 +3805,10 @@
 			}
 
 		}
+
+/* IFrame */
+iframe.pdf-viewer {
+    width: 100%;
+    height: 90vw;
+    max-height: 1200px;
+}
