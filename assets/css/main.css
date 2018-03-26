@@ -3807,8 +3807,21 @@
 		}
 
 /* IFrame */
-iframe.pdf-viewer {
-    width: 100%;
-    height: 90vw;
-    max-height: 1200px;
-}
+	iframe.pdf-viewer {
+	    width: 100%;
+	    height: 90vw;
+	    max-height: 1200px;
+	}
+
+/* Projects */
+	img.logo {
+		border-radius: 75px;
+	}
+
+	@media screen and (max-width: 736px) {
+
+			img.logo {
+				width: 140px;
+			}
+
+	}
