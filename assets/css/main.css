@@ -3828,7 +3828,6 @@
 
 	/* Goodreads */
 	.gr_grid_container {
-		/* customize grid container div here.*/
 		width: 900px;
 		margin-left: 20px;
 		padding: 0;
@@ -3837,9 +3836,35 @@
 		font: inherit;
 		display: inline-block;
 	}
+	
+		#currentlyReading .gr_grid_container {
+			position: relative;
+			left: 50%;
+			margin-left: -200px;
+		}
+
+	@media screen and (max-width: 736px) {
+
+		.gr_grid_container {
+			width: 340px;
+			margin-left: 8px;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			display: inline-block;
+		}
+
+		#currentlyReading .gr_grid_container {
+			width: 200px;
+			position: relative;
+			left: 50%;
+			margin-left: -200px;
+		}
+
+	}	
 
 	.gr_grid_book_container {
-		/* customize book cover container div here */
 		float: left;
 		width: 98px;
 		height: 160px;
@@ -3849,7 +3874,28 @@
 		margin-top: 10px;
 	}
 
+	@media screen and (max-width: 736px) {
+
+		.gr_grid_book_container {
+			float: left;
+			width: 39px;
+			height: 60px;
+			padding: 0px 0px;
+			overflow: hidden;
+			margin-right: 5px;
+			margin-top: 5px;
+		}
+
+	}
+
 	.gr_grid_book_container img{
-		/* customize book cover image here */
 		height: 160px;
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.gr_grid_book_container img{
+			height: 60px;
+		}
+
 	}	
