@@ -3899,3 +3899,44 @@
 		}
 
 	}	
+
+/* HESS */
+.hess_poster {
+	padding-bottom: 20px;
+}
+
+.hess_poster img{
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999999;
+}
+
+@media screen and (max-width: 736px) {
+	.hess_poster img{
+		width: 320px;
+	}
+}
+
+.hess_adc {
+	left: 150px;
+	padding-bottom: 20px;
+}
+
+@media screen and (max-width: 736px) {
+	.hess_adc {
+		left: 0px;
+	}
+	.hess_adc img{
+		width: 320px;
+	}
+}
+
+.hess_app img{
+	display: inline-block;
+}
+
+@media screen and (max-width: 736px) {
+	.hess_app img{
+		height: 280px;
+	}
+}
