@@ -3940,3 +3940,33 @@
 		height: 280px;
 	}
 }
+
+/* Cabinet */
+.cabinet_app {
+	padding-bottom: 20px;
+	left: 16%;
+}
+
+.single_screen{
+	left: 34%;
+}
+
+.cabinet_app img {
+	display: inline-block;
+	width: 300px;
+}
+
+@media screen and (max-width: 736px) {
+	.cabinet_app {
+		padding-bottom: 20px;
+		left: 0%;
+	}
+
+	.single_screen{
+		left: 25%;
+	}
+
+	.cabinet_app img{
+		width: 158px;
+	}
+}
