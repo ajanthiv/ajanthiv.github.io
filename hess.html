@@ -46,7 +46,7 @@
 								<p>
 									Given the problem of increasing energy demand and costs, the Home Energy Storage System (HESS) sets out to provide a solution by means of hardware and software. The objective is to provide a storage system that can charge during off-peak hours and discharge during on-peak hours. This storage system aims to provide an effective method to reduce the energy demand on the electrical grid during on-peak hours. This will reduce the costs of transformers for the utility companies and decrease the maximum diversified (coincident) demand.
 								</p>
-								<span class="image hess_poster" style=><img src="images/HESS_poster.png" alt=""/></span>
+								<span class="image hess_poster" style=><img src="images/hess/HESS_poster.png" alt=""/></span>
 								<h2>Battery and Charging System</h2>
 								<p>
 									One of the core systems of HESS is the battery and its charging system. This system is responsible for obtaining and storing power during off-peak hours and distributing it to the load during on-peak hours. As a typical outlet supplies AC power, a charging system comprising of a rectifier and inverter is required in order to charge the battery and supply energy to devices during off-peak hours. The battery itself must be able to power a load for at least one on-peak period. 
@@ -57,7 +57,7 @@
 								<p>
 									The voltage supplied from the battery is too large for the Raspberry Pi to measure. In addition to this, the Raspberry Pi is only able to read analog data. Hence a voltage divider along with an analog to digital converter (ADC) with a voltage divider is required to convert a 15V output from the battery into a readable input for the Pi’s GPIO pins. This is the circuit design configuration used for this set up.
 								</p>
-								<span class="image hess_adc" style=><img src="images/HESS_adc.png" alt=""/></span>
+								<span class="image hess_adc" style=><img src="images/hess/HESS_adc.png" alt=""/></span>
 								<h2>System Controller</h2>
 								<p>
 									The system controller is the subsystem designed for two main purposes: to communicate with the front end and to make decisions for how the entire system operates and when it performs certain tasks. These decisions are made based on the current time and battery state. Specific system operations/tasks include: when to charge the battery and when to discharge the battery, and when to power the load directly via AC wall power.
@@ -74,10 +74,10 @@
 									An Android application was chosen as the mechanism of this front-end system. A clean and simple user interface was built so that any person could use and understand HESS regardless of their technical proficiency.
 								</p> 
 								<span class="image hess_app">
-									<img src="images/HESS_app_home.png" alt=""/>
-									<img src="images/HESS_app_schedules.png" alt=""/>
-									<img src="images/HESS_app_status.png" alt=""/>
-									<img src="images/HESS_app_usage.png" alt=""/>
+									<img src="images/hess/HESS_app_home.png" alt=""/>
+									<img src="images/hess/HESS_app_schedules.png" alt=""/>
+									<img src="images/hess/HESS_app_status.png" alt=""/>
+									<img src="images/hess/HESS_app_usage.png" alt=""/>
 								</span>
 							</section>
 					</div>
